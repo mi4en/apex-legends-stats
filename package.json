@@ -1,0 +1,39 @@
+{
+  "name": "apex-legends-stats",
+  "version": "1.0.0",
+  "description": "track apex legends player stats",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mi4en/apex-legends-stats.git"
+  },
+  "keywords": [
+    "apex",
+    "legends",
+    "javascript",
+    "vue.js",
+    "node.js",
+    "express"
+  ],
+  "author": "Mario Nikolov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mi4en/apex-legends-stats/issues"
+  },
+  "homepage": "https://github.com/mi4en/apex-legends-stats#readme",
+  "dependencies": {
+    "concurrently": "^4.1.1",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
