@@ -10,4 +10,4 @@ https://apex-legends-stats-tracker.herokuapp.com/
 3.from main project folder:
 - run both server and clinet: npm run dev
 - run server: npm run server
--run client: npm run client
+- run client: npm run client
